@@ -1,0 +1,31 @@
+#include <iostream>
+#include<string>
+using namespace std;
+
+int main()
+{
+    //Mostramos nuestro menu
+    cout<<"Bienvenidos a UVG Canvas"<<endl;
+    cout<<"Seleccione un curso escribiendo el número referido:"<<endl;
+    cout<<"1. Matemática"<<endl;
+    cout<<"2. Inglés"<<endl;
+    cout<<"3. Algoritmos"<<endl;
+    
+    //Obtenemos la seleccion del usuario
+    int select;
+    cin>>select;
+    
+    if(select==1){
+        cout<<"Notas de Matemática: 70/100";
+    }
+    
+    if(select==2){
+        cout<<"Notas de Ingles: 55/100";
+    }
+    
+    if(select==3){
+        cout<<"Notas de Algoritmos: 99/100";
+    }
+    
+    return 0;
+}

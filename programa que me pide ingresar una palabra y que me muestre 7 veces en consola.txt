@@ -1,0 +1,38 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+
+//programa que me solicite una palabra y me muestra
+//la palabra 7 veces
+
+
+//declaracion de la variable
+string palabra;
+
+//mensaje que muestra al usuario para que ingrese una palabra
+cout<<"INGRESE UNA PALABRA: "<<endl;
+//Aqui se guarda la variable declarada
+cin>>palabra;
+//Esta linea separa la palabra ingresada por el usuario con las 7 palabras que se muestran en consola
+cout<<"----------------------"<<endl;
+
+//Es un contador que tiene el valor de 1.
+//Se usa como contador para el bulce while
+int i = 1;
+//En esta parte se evalua si el valor de i es menor o igual a 7
+//si es así se ejecuta el codigo
+while (i<=7){
+    //Aqui se muestra la palabra ingresada por el usuario con un numero de interaccion
+    cout<<endl<<i<<": "<< palabra<<endl;
+    //el bulce vuelve a verificar si i es <= a 7
+    //si lo es se repite el proceso de mostrar la palabra
+    //de lo contrario se cierra el programa
+    i++;
+}
+
+    return 0;
+}

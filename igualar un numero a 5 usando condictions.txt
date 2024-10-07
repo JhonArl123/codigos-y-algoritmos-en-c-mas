@@ -1,0 +1,31 @@
+#include <iostream>
+
+using namespace std;
+
+
+//igual un numero a 5 usando condictions//
+
+int main()
+{
+
+int numero, dato=5;
+
+cout<<"digite el numero"<<endl;
+cin>>numero;
+
+if(numero==dato){
+	cout<<"El numero es igual a 5";
+}
+else{
+	cout<<"el numero no es igual a 5";
+}
+
+
+
+
+
+
+
+
+    return 0;
+}

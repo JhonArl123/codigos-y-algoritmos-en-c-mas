@@ -1,0 +1,94 @@
+#include <iostream>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+int main()
+{
+/*
+string nombre = "Juan";
+cout<<nombre<<endl;
+
+
+//variable del tipo booleano
+
+bool prueba = true;
+cout <<prueba<<endl;*/
+
+
+
+   /*
+   //codigo para guardar una operacion a una variable
+   
+   int multi = 5*4;
+   cout<<multi;*/
+   
+   
+   
+   /*
+   //codio para el codio float
+   int minumero = -5;
+   cout<<minumero;*/
+  
+  
+   
+ /*
+  //condiciones
+   
+bool registrado = true;
+if(registrado ==true){
+	cout<<"tiene acceso";
+}
+else{
+cout<<"no tiene acceso";
+}*/
+
+
+/*
+bool registrado = false;
+if(registrado==true){
+	cout<<"tiene acceso";
+}
+
+if(registrado==false){
+	cout<<"no tiene acceso";
+}*/
+
+
+/*
+// condiciones 
+float suma = 10;
+
+// quiero saber si suma es mayor a 10
+
+//validar si 10 es mayor a 10
+if(suma>10){
+	cout<<"si es mayor a 10, "<<suma;
+}
+//validar si es igual a 10
+if(suma==10){
+	cout<<"es igual a 10, "<<suma;
+}
+//validar si es menor a 10
+if (suma<10){
+	cout<<"es menor a 10"<<suma;
+}*/
+
+
+
+
+
+
+
+
+
+
+   
+
+   
+    return 0;
+}

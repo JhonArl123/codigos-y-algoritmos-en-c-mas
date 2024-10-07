@@ -1,0 +1,41 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+
+string dias;
+
+cout<<"escriba un dia de la semana y se te indicara la actividad a realizas "<<endl;
+cin>>dias;
+
+if(dias=="lunes"){
+	cout<<"te toca ir a trabajar";
+}
+else if(dias == "martes"){
+	cout<<"te toca ir a la escuela";
+}
+else if(dias == "miercoels"){
+	cout<<"te toca ir a ver la novia";
+}
+else if(dias == "jueves"){
+	cout<<"te toca ir a una entrevista";
+}
+else if(dias == "viernes"){
+	cout<<"te toca viajara ixcán";
+}
+else if(dias == "sabado"){
+	cout<<"te toca ir al ensayo";
+}
+else if(dias == "domingo"){
+	cout<<"te toca ir a la iglesia";
+}
+else{
+	cout<<"no existe";
+}
+
+    return 0;
+}
+
+

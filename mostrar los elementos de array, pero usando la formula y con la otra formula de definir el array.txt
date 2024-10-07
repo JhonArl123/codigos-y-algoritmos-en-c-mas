@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+//OTRA FORMA DE DEFINIR EL ARRAY
+//MOSTRAR LOS ELEMENTOS UTILIZNDO UN CILO FOR
+
+int main()
+{
+     //array
+int numeros []={23,45,56,78,100};   //otra forma de definir el array
+
+                    //array         /array
+int length = sizeof(numeros)/sizeof(numeros)[0];    //toda esta linea es una formul completa
+
+       //i=contador
+        //0=empieza en la posicion 0. en la pocion 0, muestra el no.23
+        //si pongo 2 en vez de 0, empieza a mostrar desde no.56
+for(int i = 0; i<length; i++){
+	
+	      //array //contador....numeros[i]
+	cout<<numeros[i]<<endl;	
+}
+		
+    return 0;
+}

@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int edad;
+    cout << "Ingrese su edad: ";
+    cin >> edad;
+
+    // los mayores o igual a 18 años tienen promocion o mneores de 60 años tiene promocion
+    
+    if (edad >=18 && edad <=60) {
+        cout << "tiene promocion" << endl;
+    } 
+	else if (edad < 18){
+        cout << "es un niño " << endl;
+    }
+    else {
+	cout<<"ya es viejo";
+	}
+
+    return 0;
+}

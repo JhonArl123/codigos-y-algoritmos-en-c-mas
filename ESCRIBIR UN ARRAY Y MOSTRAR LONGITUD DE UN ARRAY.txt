@@ -1,0 +1,32 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+
+//ESCRIBIR UN ARRAY Y MOSTRAR LA LONGITUD DE MI ARRAY
+
+// numeros, declaracion de la variable
+//[5] el tamaño del array o matriz. Es decir que son 5 posiciones, pero la posicion
+//empieza a contar desde 0,1,2,3,4
+int numeros [5];
+
+numeros [0]=15;       //posicion o
+numeros [1]=20;       //posicion 1
+numeros [2]=25;       //posicion 2
+numeros [3]=30; 	  //posicion 3
+numeros [4]=35;		  //posocion 4
+
+
+//esta linea de codigo sirve para mostrar el tamaño de mi array nombrado como numeros desde int
+int lengt = sizeof (numeros)/sizeof(numeros)[0];
+
+//esta linea inmprine la longitud del array y que saldrá el numero 5 de int numeros[5]
+cout<<"la longitud de mi array es :"<<lengt<<endl;
+
+
+
+    return 0;
+}

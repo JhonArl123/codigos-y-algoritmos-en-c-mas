@@ -1,0 +1,37 @@
+#include <iostream>
+
+using namespace std;
+int main()
+{
+
+// [10] el tamaño de de mi array
+int numeros [10];
+
+// i = 0; epieza en 0
+// i<10; me permite ingresar 10 datos
+//i++ se incrementa las veces de ingrsar datos hasta que se agota las opciones
+//pero solo llega  en la posicon 9 porque empieza hace el conteo desde 0//
+for( int i=0; i<10; i++){
+	
+           //mensaje en consola//
+//<<i>> el contador que hace el conteo... 0, 1, 2, 3...
+cout<<"posicion "<<i<<": ";
+
+//aqui se guarda los datos ingresados
+//pero a numeros se le asocia[i]
+//numeros[i] para poder a acceder a cada poscicon de array
+cin>>numeros[i];
+}
+//despues de ejecutar el bulce aparecerá este mensaje pero no sin antes ejecutar otro bucle
+cout<<endl<<"contenido de mi array"<<endl;
+
+//Este bucle servira para mostrar los datos de mi array
+for( int i=0; i<10; i++){
+	
+	//este codigo mostrará los datos de mi array
+	               //" " sirve para dar un espacio en cada par de numero
+	cout<<numeros[i]<<" ";	
+}
+
+    return 0;
+}

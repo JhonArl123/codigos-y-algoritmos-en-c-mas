@@ -1,0 +1,39 @@
+#include <iostream>
+
+using namespace std;
+
+
+//para caclular el promedio de cuatro notas//
+
+int main()
+{
+
+int nota1, nota2, nota3, nota4, promedio;
+
+cout<<"ingrese tu primera nota"<<endl;
+cin>>nota1;
+
+cout<<"ingrese tus segunda nota"<<endl;
+cin>>nota2;
+
+cout<<"ingrese tu tercera nota"<<endl;
+cin>>nota3;
+
+cout<<"ingrese tu cuarta nota"<<endl;
+cin>>nota4;
+
+
+promedio = (nota1 + nota2 + nota3 + nota4)/4;
+
+cout<<"su promedio es "<<promedio<<endl;
+
+if(promedio>=75){
+	cout<<"ganaste el grado ¡FELICICADES!";
+}
+	else{
+		cout<<"reprobaste el grado ¡LO SIENTO!";
+	}
+
+
+    return 0;
+}

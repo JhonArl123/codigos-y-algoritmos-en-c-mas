@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+
+int numeros []={5,10,15,19,30};
+
+//mostrara el numero 15 porque empieza a contar de 0,1,2
+cout<<numeros[2];
+
+
+    return 0;
+}
+

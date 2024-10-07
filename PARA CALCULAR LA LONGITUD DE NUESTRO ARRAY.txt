@@ -1,0 +1,5 @@
+
+¿CUAL ES LA lONGITUD DE NUESTRO ARRAY, ES DECIR EL TAMAÑO [5]
+
+
+int length = sizeof (nombre del array)/sizeof(nombre del array)[0];

@@ -1,0 +1,21 @@
+#include <iostream>
+
+
+using namespace std;
+
+int main()
+{
+
+int years = 16;
+
+if(years>=18 ){
+
+	cout<<"BIENVENIDO";
+}
+else{
+	cout<<"NO PUEDE ENTRAR";
+}
+
+
+    return 0;
+}

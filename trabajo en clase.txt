@@ -1,0 +1,35 @@
+#include <iostream>
+
+using namespace std;
+int main()
+{
+	
+/*
+//definir las varibales a utilizar
+
+float peso = 70;
+float altura = 1.75;
+
+//definir una variale res con una variable IMC
+
+float IMC = peso/(altura*altura);
+
+//Escribir una condicion en base al bao peso y obesidad
+if (IMC<18.5){
+	cout<<"bajo peso";
+}
+if (IMC>=30){
+   cout<<"obesidad";
+}
+if(IMC>18.5 && IMC<29){
+	cout<<"peso normal";
+}
+*/
+
+//calculadora de edad en dias
+int edad = 25;
+int dias = edad * 365;
+cout<<dias;
+
+    return 0;
+}

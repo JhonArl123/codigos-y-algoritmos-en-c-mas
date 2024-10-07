@@ -1,0 +1,35 @@
+#include <iostream>
+
+using namespace std;
+
+
+//Aumento de salario 
+
+int main()
+{
+
+int salario, nuevosalario;
+
+cout<<"ingrese el salario"<<endl;
+cin>>salario;
+
+if(salario<18000){
+	nuevosalario = salario + (salario * 0.12);
+}
+else if(salario>=18000 && salario<=30000){
+	nuevosalario = salario + (salario *0.08);
+}
+else if(salario >30000 && salario<=50000){
+	nuevosalario = salario + (salario *0.07);
+}
+else{
+	nuevosalario = salario + (salario * 0.06);
+}
+cout<<"el nuevo salario es  "<<nuevosalario;
+
+
+
+
+
+    return 0;
+}

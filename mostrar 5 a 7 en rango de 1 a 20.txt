@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+//contar de 5 a 7
+
+for (int i=1;i<=21;i++){
+    
+    if(i>4&&i<8){
+        cout<<i<<endl;
+    
+    }
+    
+}
+
+
+    return 0;
+}
